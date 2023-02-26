@@ -15,9 +15,9 @@ function renderEmojis() {
     localStorage.setItem("data", JSON.stringify(data))
     data = getFromLocal
     emojiContainer.innerHTML = ""
-    for (let i = 0; i < getFromLocal.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         const emoji = document.createElement('span')
-        emoji.textContent = getFromLocal[i]
+        emoji.textContent = data[i]
         emojiContainer.append(emoji)
     }
 }
