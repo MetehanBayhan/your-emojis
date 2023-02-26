@@ -1,0 +1,105 @@
+html {
+    height: 100vh;
+    font-family: "Baloo", sans-serif;
+}
+
+body {
+    padding: 10px;
+    padding-top: 75px;
+    background-image: linear-gradient(#7DB9B6, #F5E9CF, #7DB9B6);
+
+}
+.main{
+    width: 450px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #E96479;
+    border-radius: 10px;
+}
+#emoji-container {
+    margin: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 35px;
+    border: 12px dotted gold;
+    border-radius: 50px;
+    padding-top: 5px;
+
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+#push-btn, #pop-btn {
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #4D455D;
+
+}
+
+#shift-btn, #unshift-btn{
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #4D455D;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #4D455D;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 3px solid black;
+    height: 120px;
+    width: 200px;
+    background: white;
+    border-radius: 120px;
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: 3px solid black;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 120px;
+    
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
